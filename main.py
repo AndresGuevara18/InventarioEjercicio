@@ -2,7 +2,6 @@
 from agregar import agregar
 from eliminar import eliminar
 
-
 inventario = {
     'manzanas': 50,
     'naranjas': 30,

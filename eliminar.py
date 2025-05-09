@@ -1,7 +1,6 @@
 producto = ""
 valor = 0
 
-
 def eliminar (inventario):
     producto = input("Ingrese las fruta a elimimar: ").lower()
     if producto in inventario:
