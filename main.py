@@ -1,5 +1,5 @@
 from mostrar import mostrar_inventario
-from actualizar import actualizar_producto
+from actualizar import actuazlizar_producto
 
 #inventario inicial
 from agregar import agregar
@@ -12,6 +12,7 @@ inventario = {
 }
 
 mostrar_inventario(inventario)
-actualizar_producto(inventario)
+actuazlizar_producto(inventario)
 agregar(inventario)
 eliminar(inventario)
+mostrar_inventario(inventario)
